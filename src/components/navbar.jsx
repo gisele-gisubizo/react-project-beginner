@@ -39,7 +39,7 @@ function Navbar(){
         <Link to="/HOME" className="custom-link" >
         <li>HOME</li>
         </Link> 
-          <Link className="custom-link"><li>SHOP</li></Link>
+          <Link to='/shop' className="custom-link"><li>SHOP</li></Link>
         <Link className="custom-link"><li>VENDORS</li></Link>  
         <Link className="custom-link"> <li>BLOG</li></Link> 
          <Link className="custom-link"><li>CONTACT</li></Link> 

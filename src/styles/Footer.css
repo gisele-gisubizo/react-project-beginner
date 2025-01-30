@@ -11,9 +11,7 @@
 }
 
 .email{
-    position: absolute;
-    bottom: -1030px;
-    right: 60em;
+   margin-top:-10em ;
     
 }
 .email input{
@@ -25,7 +23,7 @@
     padding: 5px;           /* Add some padding for better appearance */
     width: 100%;            /* Make the input take full width of its container */
     font-size: 17px;              /* Add some padding for better appearance */
-    width: 250%;  
+    width: 45%;  
    
 }
 .email button{
@@ -34,18 +32,15 @@
     border: none;           /* Remove the border */
     border-bottom: 2px solid #000;  /* Add a thin border at the bottom */
     outline: none; 
-    margin-left: 30em;
-   position: absolute;
-   bottom: 4px;
+    margin-left: -3em;
+   
    font-size: 17px;  
 }
 
 .list{
     display: flex;
     gap: 8em;
-    position:absolute;
-    top: 105em;
-    right:37em;
+    margin-top: 50px;
 }
 .list h2{
     margin-bottom: 20px;
@@ -61,8 +56,8 @@
 
 .words{
     margin-left: 50em;
-   position: absolute;
-  top: 88em;
+    margin-top: -23em;
+   
   text-align: left;
 
 }
@@ -78,8 +73,8 @@
 
 .icon{
     font-size: 18px;
-    margin-top: 20px;
-    padding: 15px;
+    margin-top: 15px;
+    padding: 13px;
    
 }
 
@@ -87,10 +82,11 @@
     width: 50%;           /* Set width to 80% of the screen or container */
     height: auto;         /* Let the height adjust based on the image aspect ratio */
     max-width: 250px;     /* Set a max-width so it doesn't grow too large */
-    margin: 0 auto;       /* Center the image holder horizontally */
-   position: absolute;
-   right: 160px;
-   top: 105em;
+          /* Center the image holder horizontally */
+    margin-left: 50em;
+    margin-top: -22em;
+  
+ 
 }
 
 .cards img{

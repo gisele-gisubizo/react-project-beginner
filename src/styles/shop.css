@@ -1,0 +1,136 @@
+
+
+.shop-shop{
+   height: 250vh;
+    background-color: #fff;
+    color: black;
+   
+  
+}
+
+.shop-shop-list{
+    margin-left: 5em;
+    font-family: 'poppins';
+    
+}
+.shop-shop-list ul{
+    list-style: none;
+   
+}
+
+.shop-shop-list ul li{
+    padding: 2px;
+    font-size: 15px;
+
+}
+
+.shop-part
+{
+    margin-left: 27em;
+    margin-top: -13em;
+    padding: 3px;
+   
+}
+
+.shop-part h2{
+ font-size: 33px;
+}
+
+.shop-part button{
+
+    margin-top: 18px;
+    border: none;
+    padding: 18px;
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 8rem;
+    text-align: center;
+    background-color: grey;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Robot',sans-serif;
+}
+
+.categories{
+    margin-top: 5em;
+    margin-left: 4.9em;
+}
+
+.popular-images{
+width: 150px;
+height: 100px;
+display: inline-block;
+flex-direction: row;
+
+padding: 10px;
+text-align: center;
+}
+
+.image-image-shop{
+    width: 160px;
+    height: 140px;
+}
+
+.arrivals{
+    margin-left: 4.9em;
+    margin-top: 2em;
+
+    
+}
+
+
+
+.arrivals-images{
+    width: 200px;
+height: 250px;
+display: inline-block;
+flex-direction: row;
+
+padding: 10px;
+text-align: left;
+margin-right: 10rem;
+object-fit: cover;
+
+
+}
+
+.image-image-arrivals{
+    width: 350px;
+    height: 300px;
+    margin-bottom: 1em;
+    
+    
+    
+}
+
+.arrivals-color{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    border: 1px solid rgb(99, 95, 95); /* Makes the div circular */
+    display: inline-flex;
+    margin-top: 1em;
+    margin-right: 5px;
+}
+
+.item-price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.arrivals-button{
+    border: none;
+    padding: 18px;
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 8rem;
+    text-align: center;
+    background-color: grey;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Robot',sans-serif;
+    margin-left: 35rem;
+    margin-top: 10px;
+}

@@ -2,10 +2,11 @@ import { useState } from 'react'
 import Navbar from './components/navbar'
 import Home from './components/Home'
 import Layout from './components/layout'
-import footer from './components/Footer'
+import Footer from './components/Footer'
+import Shop from './components/Shop'
 import './App.css'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
-import Footer from './components/Footer'
+
 
 
 function App() {
@@ -15,8 +16,10 @@ function App() {
    <BrowserRouter>
 <Routes>
 
-     <Route path='/' element={<Layout  />}>   <Route path='/'  index element={<Home/>}/> 
-     <Route path='/'  Footer element={<Footer/>}/> 
+     <Route path='/' element={<Layout/>}> 
+     <Route path='/Home'  index element={<Home/>}/>
+     <Route path='/Shop'  Shop element={<Shop/>}/>  
+     <Route path='/Footer'  Footer element={<Footer/>}/> 
      </Route>
      
        
