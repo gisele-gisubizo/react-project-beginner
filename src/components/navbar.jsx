@@ -36,13 +36,14 @@ function Navbar(){
           </select>
 
        
-        <Link to="/HOME" className="custom-link" >
+        <Link to="/Shop" className="custom-link" >
         <li>HOME</li>
         </Link> 
-          <Link to='/shop' className="custom-link"><li>SHOP</li></Link>
+          <Link to='/Home' className="custom-link"><li>SHOP</li></Link>
         <Link to='/Vendors' className="custom-link"><li>VENDORS</li></Link>  
         <Link className="custom-link"> <li>BLOG</li></Link> 
          <Link className="custom-link"><li>CONTACT</li></Link> 
+         <Link to='/LoginForm'className="custom-button"><li>LOGIN</li></Link> 
 
        </div>
 

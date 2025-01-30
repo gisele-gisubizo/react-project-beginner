@@ -34,6 +34,7 @@
 
 .shop-part h2{
  font-size: 33px;
+ margin-top: 20px;
 }
 
 .shop-part button{
@@ -50,6 +51,11 @@
     font-size: 14px;
     font-weight: 500;
     font-family: 'Robot',sans-serif;
+    cursor: pointer;
+  display: flex;             /* Use flexbox */
+  justify-content: center;   /* Horizontally center text */
+  align-items: center;       /* Vertically center text */
+  text-align: center; 
 }
 
 .categories{

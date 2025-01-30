@@ -6,6 +6,7 @@ import { IoMenuSharp } from "react-icons/io5";
 import john from '../assets/john.webp'
 import { IoGridSharp } from "react-icons/io5";
 import jessica from '../assets/jessica.webp'
+import santa from '../assets/santa.webp'
 function Vendors(){
 
     const vendors =[
@@ -55,7 +56,13 @@ function Vendors(){
       </div>
              
     
-      {
+      
+    </div>
+ </div>
+
+
+
+ {
              vendors.map((item) => (
                 <>
               <div className='vendors-images'>
@@ -75,12 +82,6 @@ function Vendors(){
                 </>
              ))
              }
-    </div>
- </div>
-
-
-
-
 
 
   </div>

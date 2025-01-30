@@ -11,6 +11,29 @@
     text-decoration: none;
     font-family: 'poppins';
 }
+
+.custom-button{
+    width: auto;                   /* Allow width to adjust based on content */
+    padding: 13px 20px;             /* Add padding (top/bottom, left/right) */
+    background-color: white;
+    color: #010101;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;            /* Use flexbox */
+    justify-content: center;        /* Horizontally center text */
+    align-items: center;            /* Vertically center text */
+    text-align: center;             /* Ensure text is centered */
+    margin-left: 13em;              /* Adjust this if you need to move the button */
+   text-decoration: none;
+  }
+
+.custom-button:hover{
+    background-color: rgb(48, 79, 203);
+    color: #fff;
+}
+
 .container{
     background-color: #fff;
     height: auto;  
@@ -29,9 +52,7 @@
     padding: 2px;
 }
 
-{
 
-}
 
 .input,real-input{
     display: flex;
