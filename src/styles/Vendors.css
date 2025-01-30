@@ -1,0 +1,90 @@
+.vendors-list{
+    height: 150vh;
+    background: #ffffff;
+}
+
+.store{
+
+    color: black;
+   
+    
+}
+
+.store h1{
+padding-top: 1.5em;
+text-align: center;
+padding-bottom: 1em;
+font-size: 50px;
+
+
+ 
+}
+
+.vendors-board{
+    color: black;
+    padding: 20px;
+    width:76%;
+   position: absolute;
+   left: 110px;
+  box-shadow: -0.5px 0 15px rgba(173, 169, 169, 0.2);
+    border: none;
+    background:#fffefe;
+    font: 1em sans-serif;
+   
+}
+
+.vendors-board p{
+    font-size: 15px;
+}
+
+.vendors-sort{
+    margin-left: 45em;
+    display: inline-flex;
+  
+}
+
+.menu{
+    font-size: 20px;
+}
+
+
+/*.icons-vendors{
+    display:flex;
+    gap:10px;
+     font-size: 17px;
+     color: black;
+     margin-Left:15px;
+     cursor: pointer;
+     transition: 0.3s ease;
+}
+
+.icons-vendors:hover{
+    color: rgb(48, 79, 203);
+}*/
+
+
+
+
+
+.image-john{
+    width: 200px;
+    height: 190px;
+    object-fit: cover;
+    margin-top: -4px;
+    margin-left: -3px;
+}
+
+.vendors-image{
+    color: black;
+    padding: 10px;
+    width:76%;
+    height: 182px;
+    margin-top: 180px;
+   position: absolute;
+   left: 110px;
+  box-shadow: -0.5px 0 15px rgba(173, 169, 169, 0.2);
+    border: none;
+    background:#fffefe;
+    font: 1em sans-serif;
+   
+}
