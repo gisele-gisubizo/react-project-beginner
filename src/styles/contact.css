@@ -1,0 +1,78 @@
+.contact-container{
+    height: 200vh;
+    background-color: white;
+    color: black;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-left: 8em;
+    padding-top: 18em;
+  }
+  
+  .contact-form {
+    width: 50%;
+  }
+  
+  .store-info {
+    width: 35%;
+  }
+  
+  h1, h2 {
+    margin-bottom: 16px;
+    font-size: 29px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+   
+  }
+  
+  .name-group {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .name-inputs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+   
+  }
+  
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: rgb(89, 86, 233);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .required {
+    color: red;
+  }
