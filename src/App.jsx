@@ -7,12 +7,14 @@ import { useState } from 'react'
  import Vendors from './components/Vendors'
  import Blog from './components/Blog'
  import Contact from './components/Contact'
- import Login from './components/Login'
+
 
 
 
 import './App.css'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
+import HomePage from './components/HomePage'
+import SinglePage from './components/SinglePage'
 
 
 
@@ -31,13 +33,14 @@ function App() {
       <Route path='/Footer'  Footer element={<Footer/>}/> 
     <Route path='/Blog'  Blog element={<Blog/>}/> 
 <Route path='/Contact'  Contact element={<Contact/>}/>
-  
+<Route path='/view' element={<HomePage/>}/> 
+  <Route path="/singlecard/:id" element={<SinglePage/>}/> 
     
   
 
     </Route>
    
-      <Route path='/Login'  Login element={<Login/>}/>  
+    
      
      
 </Routes>

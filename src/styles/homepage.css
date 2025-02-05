@@ -1,0 +1,19 @@
+.container-trial{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    display: 2rem;
+    color: black;
+
+}
+
+.photo1{
+    gap: 2rem;
+}
+
+.photo2{
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+}

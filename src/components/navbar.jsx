@@ -68,6 +68,7 @@ function Navbar(){
         <Link to='/Vendors' className="custom-link"><li>VENDORS</li></Link>  
         <Link to='/Blog' className="custom-link"> <li>BLOG</li></Link> 
          <Link to='/Contact' className="custom-link"><li>CONTACT</li></Link> 
+         <Link to ='/view'><li>view</li></Link>
     
          <div className="phone">
          <FaPhoneAlt size="18px" color="white"  />

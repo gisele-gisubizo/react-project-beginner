@@ -37,10 +37,10 @@ const Form =({handleLoginForm})=>
              
 
              <div className="forgot"><p>Forgot password</p></div>
-                 <div><p>Don't have an account?    <span onClick={handleSign}>Sign up</span></p></div>
+                 <div><p>Don't have an account?    <span onClick={handleSign} className="span-form">Sign up</span></p></div>
            </div>
            </div>
-           {form && <SignUp handleSign={handleSign}/> }
+           {form && <SignUp handleSign={handleSign} handleLoginForm={handleLoginForm}/> }
        </div>
 
     )
