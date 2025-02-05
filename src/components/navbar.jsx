@@ -8,10 +8,27 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { CgShoppingBag } from "react-icons/cg";
 import { FaRegHeart } from "react-icons/fa";
+import {useState} from "react"
+import Form from '../components/form'
+
 function Navbar(){
+  const [modal,setModal] =useState (false);
+  const handleLoginForm=()=>
+  {
+    setModal(!modal)
+  }
+ 
+
+ 
+ 
+
+
     return(
 
  <div className="container">
+
+{modal && <Form handleLoginForm={handleLoginForm}/>}
+
 
       <div className="tittle">
          <h1> Botiga</h1>
@@ -27,7 +44,7 @@ function Navbar(){
            
             <div className="real-input"><input type="text" name="search" placeholder="Search products"/></div>
             <div className="nav-icons">
-              <FaRegUser  size="20px" color="black"  />
+              <FaRegUser  size="20px" color="black" onClick={handleLoginForm} />
               <CgShoppingBag  size="22px" color="black" />
               <FaRegHeart   size="22px" color="black"  />
             </div>
@@ -51,7 +68,7 @@ function Navbar(){
         <Link to='/Vendors' className="custom-link"><li>VENDORS</li></Link>  
         <Link to='/Blog' className="custom-link"> <li>BLOG</li></Link> 
          <Link to='/Contact' className="custom-link"><li>CONTACT</li></Link> 
-
+    
          <div className="phone">
          <FaPhoneAlt size="18px" color="white"  />
          <p>800-123-4567</p>

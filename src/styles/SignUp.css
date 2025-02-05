@@ -1,0 +1,74 @@
+.content-sign{
+    padding-left:4rem ;
+ 
+    background: rgb(255, 255, 255);
+    color: black;
+   position: absolute;
+   top: 5rem;
+   left: 30rem;
+   width: 24em;
+height:25em;
+border: none;
+border-radius: 10px;
+
+
+  
+}
+
+.content-sign h1{
+color: rgb(89, 86, 233);
+font-size: 25px;
+font-family: 'poppins';
+margin-top: 30px;
+margin-left: 50px;
+
+}
+
+
+.container-sign input{
+
+width: 290px;
+display: block;
+height: 40px;
+border-color:rgb(89, 86, 233) ;
+}
+
+.button-sign{
+    background-color:rgb(89, 86, 233);
+    width: 7rem;
+    height: 2.5rem;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+.button:hover{
+    transform: translateY(-3px);
+    background-color: rgb(59,113,113) ;
+    cursor: pointer;
+}
+
+.overlay-sign {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .icon-closed{
+    margin-left: 6em;
+    position: absolute;
+    margin-top: -1em;
+    cursor: pointer;
+  }
