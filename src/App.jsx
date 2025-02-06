@@ -4,7 +4,7 @@ import { useState } from 'react'
  import Layout from './components/layout'
  import Footer from './components/Footer'
  import Shop from './components/Shop'
- import Vendors from './components/Vendors'
+//  import Vendors from './components/Vendors'
  import Blog from './components/Blog'
  import Contact from './components/Contact'
 
@@ -13,8 +13,13 @@ import { useState } from 'react'
 
 import './App.css'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
-import HomePage from './components/HomePage'
+// import HomePage from './components/HomePage'
 import SinglePage from './components/SinglePage'
+import Shop2 from './components/Shop2'
+import SingleArrival from './components/SingleArrival'
+import SingleVendors from './components/SingleVendors'
+
+
 
 
 
@@ -29,12 +34,15 @@ function App() {
      <Route path='/' element={<Layout/>}> 
       <Route path='/Home'  index element={<Home/>}/>
       <Route path='/Shop'  Shop element={<Shop/>}/>  
-      <Route path='/Vendors'  Vendors element={<Vendors/>}/> 
+      {/* <Route path='/Vendors'  Vendors element={<Vendors/>}/>  */}
       <Route path='/Footer'  Footer element={<Footer/>}/> 
     <Route path='/Blog'  Blog element={<Blog/>}/> 
 <Route path='/Contact'  Contact element={<Contact/>}/>
-<Route path='/view' element={<HomePage/>}/> 
+{/* <Route path='/view' element={<HomePage/>}/>  */}
   <Route path="/singlecard/:id" element={<SinglePage/>}/> 
+  <Route path="/Shopcards/:id" element={<Shop2/>}/> 
+  <Route path="/singlearrival/:id" element={<SingleArrival/>}/> 
+  <Route path="/singlevendors" element={<SingleVendors/>}/>
     
   
 

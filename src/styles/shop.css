@@ -1,9 +1,10 @@
 
 
 .shop-shop{
-   height: 250vh;
+   height: 550vh;
     background-color: #fff;
     color: black;
+    font-family: 'overlock',sans-serif;
    
   
 }
@@ -60,11 +61,12 @@
 
 .categories{
     margin-top: 5em;
-    margin-left: 4.9em;
+    margin-left: -22.5em;
+    margin-bottom: 20px;
 }
 
 .popular-images{
-width: 150px;
+width: 190px;
 height: 100px;
 display: inline-block;
 flex-direction: row;
@@ -74,8 +76,9 @@ text-align: center;
 }
 
 .image-image-shop{
-    width: 160px;
+    width: 180px;
     height: 140px;
+    cursor: pointer;
 }
 
 .arrivals{
@@ -97,7 +100,7 @@ padding: 10px;
 text-align: left;
 margin-right: 10rem;
 object-fit: cover;
-
+cursor: pointer;
 
 }
 
@@ -139,4 +142,147 @@ object-fit: cover;
     font-family: 'Robot',sans-serif;
     margin-left: 35rem;
     margin-top: 10px;
+}
+
+
+.vendors-shop{
+
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+
+
+}
+.vendors-shop h1{
+   
+    margin-left: 5rem;
+}
+
+.vendors-images{
+    width: 24em;
+    height: 140px;
+    display: inline-block;
+    
+    flex-direction: row;
+    
+padding-bottom: 5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    
+
+}
+
+.image-image-vendors{
+    width: 370px;
+    height: 170px;
+    cursor: pointer;
+    margin-bottom: 2em;
+    
+}
+
+
+.item-words{ 
+
+    font-size: 20px;
+        margin-bottom: 1px;
+    
+       
+    
+    }
+
+.vendors-button{
+    border: none;
+    padding: 18px;
+    border-radius: 10px;
+    height: 3.5rem;
+    width: 11rem;
+    text-align: center;
+    background-color: grey;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Robot',sans-serif;
+    margin-left: 35rem;
+    margin-top: 10px;
+}
+
+.vendors-others{
+  text-align: left;
+  margin-left: 1.6rem;
+  font: 24px Overlock,display;
+  font-weight: 600;
+  margin-top: 1.6rem;
+  width: 4rem;
+  display: flex;
+ 
+
+
+}
+
+.item-words{
+    width: 4rem;
+
+}
+
+.item-arrow{
+    margin-left: 40px;
+}
+.item-address{
+    margin-left: -15em;
+    margin-top: 10px;
+
+}
+/*//////////////*/
+
+.why-shop{
+
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+
+
+
+}
+.why-shop h1{
+   
+    margin-left: 5rem;
+}
+
+.why-images{
+    width: 24em;
+    height: 140px;
+    display: inline-block;
+    
+    flex-direction: row;
+    
+padding-bottom: 5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    
+
+}
+
+.image-image-why{
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2em;
+    
+}
+
+.why-others{
+    text-align: left;
+    width: 20rem;
+    
+}
+.item-words-why{
+    font-size: 29px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+.why-shop h1{
+    font-size: 35px;
+    margin-left: -0.5rem;
 }

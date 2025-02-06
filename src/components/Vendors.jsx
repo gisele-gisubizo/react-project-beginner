@@ -7,32 +7,34 @@ import john from '../assets/john.webp'
 import { IoGridSharp } from "react-icons/io5";
 import jessica from '../assets/jessica.webp'
 import santa from '../assets/santa.webp'
+
+const vendors =[
+  {
+      store:"John Doe's store",
+      picture:john,
+      address:'Central Park, New York, New York,',
+      country:'United States (US)'
+  
+  },
+  {
+      store:"Jessica's Store",
+      picture:jessica,
+       address:'Central Park, New York, New York,',
+      country:'United States (US)'
+    
+  },
+  {
+      store:"Santa Monica's Store",
+      picture:santa,
+       address:'Central Park, New York, New York,',
+      country:'United States (US)'
+      
+  },
+  
+  
 function Vendors(){
 
-    const vendors =[
-        {
-            store:"John Doe's store",
-            picture:john,
-            address:'Central Park, New York, New York,',
-            country:'United States (US)'
-        
-        },
-        {
-            store:"Jessica's Store",
-            picture:jessica,
-             address:'Central Park, New York, New York,',
-            country:'United States (US)'
-          
-        },
-        {
-            store:"Santa Monica's Store",
-            picture:santa,
-             address:'Central Park, New York, New York,',
-            country:'United States (US)'
-            
-        },
-        
-        
+   
     ]
 
     return(

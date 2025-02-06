@@ -6,7 +6,7 @@ import bottle from '../assets/bottle.webp'
 import alexa from '../assets/alexa.webp'
 import { useNavigate } from 'react-router-dom'
 import mouse from '../assets/mouse.webp'
-export const data =[
+export const productList =[
     {
   id:1,
   image:botiga,
@@ -29,7 +29,7 @@ function HomePage() {
     }
 return(
 <div className='container-trial'>
-{data.map((item)=>
+{productList.map((item)=>
 (
     <div className='photo1' key={item.id}>
         <div className='photo'><img src={item.image} className='photo2' /></div>
