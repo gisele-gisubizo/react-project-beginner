@@ -10,7 +10,10 @@ import santa from '../assets/santa.webp'
 import store1 from '../assets/store1.webp'
 import store2 from '../assets/store2.webp'
 import store3 from '../assets/store3.webp'
-import store4 from '../assets/store4.webp'
+
+import { MdStar } from "react-icons/md";
+import { MdStarHalf } from "react-icons/md";
+import { MdStarOutline } from "react-icons/md";
 
 const vendorShop=[
 
@@ -18,21 +21,27 @@ const vendorShop=[
     store:"John Doe's store",
     picture:john,
     address:'Central Park, New York, New York,',
-    country:'United States (US)'
+    country:'United States (US)',
+     rates: [<MdStar key={1} style={{ color: 'orange', fontSize: '22px' }}/>,<MdStar key={2} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={3} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={4}  style={{ color: 'orange', fontSize: '22px' }}/>, <MdStarHalf key={5} style={{ color: 'orange', fontSize: '22px' }}/>],
+        
 
 },
 {
     store:"Jessica's Store",
     picture:jessica,
      address:'Central Park, New York, New York,',
-    country:'United States (US)'
+    country:'United States (US)',
+     rates: [<MdStar key={1} style={{ color: 'orange', fontSize: '22px' }}/>,<MdStar key={2} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={3} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={4}  style={{ color: 'orange', fontSize: '22px' }}/>, <MdStarHalf key={5} style={{ color: 'orange', fontSize: '22px' }}/>],
+        
   
 },
 {
     store:"Digital Good's Store",
     picture:store2,
      address:'Central Park, New York, New York,',
-    country:'United States (US)'
+    country:'United States (US)',
+     rates: [<MdStar key={1} style={{ color: 'orange', fontSize: '22px' }}/>,<MdStar key={2} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={3} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={4}  style={{ color: 'orange', fontSize: '22px' }}/>, <MdStarHalf key={5} style={{ color: 'orange', fontSize: '22px' }}/>],
+        
     
 },
 
@@ -40,14 +49,18 @@ const vendorShop=[
   store:"Glass store",
   picture:store1,
   address:'Central Park, New York, New York,',
-  country:'United States (US)'
+  country:'United States (US)',
+   rates: [<MdStar key={1} style={{ color: 'orange', fontSize: '22px' }}/>,<MdStar key={2} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={3} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={4}  style={{ color: 'orange', fontSize: '22px' }}/>, <MdStarHalf key={5} style={{ color: 'orange', fontSize: '22px' }}/>],
+      
 
 },
 {
   store:"Joshua Doe's Store",
   picture:store3,
    address:'Central Park, New York, New York,',
-  country:'United States (US)'
+  country:'United States (US)',
+   rates: [<MdStar key={1} style={{ color: 'orange', fontSize: '22px' }}/>,<MdStar key={2} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={3} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={4}  style={{ color: 'orange', fontSize: '22px' }}/>, <MdStarHalf key={5} style={{ color: 'orange', fontSize: '22px' }}/>],
+      
 
 },
 
