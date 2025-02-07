@@ -97,10 +97,10 @@ return(
 {
              vendorShop.map((item) => (
                 <>
-              <div className='vendors-images'>
+              <div className='vendors-images-images'>
                      
                  <div className='overlay-vendor'>
-                   <div className='vendors-shop'><img src={item.picture} className='image-image-vendors'/> </div>
+                   <div className='vendors-shop'><img src={item.picture} className='image-image-vendor'/> </div>
                  </div>
                                  
                      <div className='vendors-info'>
