@@ -41,32 +41,52 @@ export const services =[
         name:'Body Lotion',
         image:lotion,
         productTitle:"Product Description:",
-       description:"Discover the Nivea Daily Moisturizing Lotion, a 500ml skincare essential designed to keep your skin hydrated, soft, and smooth throughout the day. This lightweight, non-greasy formula absorbs quickly, making it perfect for daily use. Enriched with shea butter, Vitamin E, and Aloe Vera, this lotion nourishes and restores your skin’s natural moisture barrier. Dermatologically tested, it is suitable for all skin types, including sensitive skin. Its mild, refreshing scent leaves you feeling fresh all day long. Ideal for use after showering or whenever your skin needs a hydration boost."
-    
+       description:"Discover the Nivea Daily Moisturizing Lotion, a 500ml skincare essential designed to keep your skin hydrated, soft, and smooth throughout the day. This lightweight, non-greasy formula absorbs quickly, making it perfect for daily use. Enriched with shea butter, Vitamin E, and Aloe Vera, this lotion nourishes and restores your skin’s natural moisture barrier. Dermatologically tested, it is suitable for all skin types, including sensitive skin. Its mild, refreshing scent leaves you feeling fresh all day long. Ideal for use after showering or whenever your skin needs a hydration boost.",
+       productAdd:"Additional Information:",
+       add:"Made by the trusted brand Nivea, this lotion comes in a compact 500ml bottle that is easy to store and use. Whether it's winter dryness or everyday skincare, this lotion is your go-to solution. Made in Germany, it promises quality you can trust.",
     },
     {     id:2,
         name:'Sports',
         image:gadget,
-      
+        productTitle:"Sports Jersey",
+        description:"Step onto the field with confidence in this premium Sports Jersey, crafted for ultimate comfort and performance. Made from lightweight, breathable fabric, it keeps you cool and dry during intense workouts or games. The durable material is designed to withstand rigorous activities, while its stylish design ensures you look great both on and off the field. Available in multiple sizes and colors, this jersey offers the perfect fit for athletes of all levels. Whether you're training, competing, or cheering from the sidelines, this jersey is a must-have addition to your sportswear collection.",
+        productAdd:"Additional Information:",
+       add:"Made from a high-quality polyester blend with moisture-wicking properties, this jersey is both comfortable and practical. It is available in sizes ranging from Small to XXL, ensuring a great fit for everyone. The jersey is easy to maintain and can be machine washed without losing its vibrant color or texture. Whether you're into soccer, basketball, running, or gym workouts, this jersey is an ideal choice for any athletic activity.",
     },
     {    id:3,
         name:'gadget',
         image:electronics,
-        
+        productTitle:"Earphones",
+        description:"Experience immersive sound quality with these sleek and lightweight earphones. Designed for comfort and durability, they feature soft silicone ear tips for a secure fit during workouts, commutes, or casual listening. With high-definition sound and deep bass, these earphones bring your music to life. The in-line remote and microphone allow you to manage calls and control your playlist effortlessly. Compatible with most devices, these earphones are your perfect audio companion for every occasion.",
+        productAdd:"Additional Information:",
+         add:"These earphones are designed to be universally compatible with smartphones, tablets, laptops, and MP3 players, offering versatility for various devices. The tangle-free 1.2m cable ensures hassle-free use, and the noise-isolating feature enhances audio clarity, even in noisy environments. For wireless models, you can enjoy up to 12 hours of playback on a single charge. Built to last, these earphones also come with a 1-year warranty for added peace of mind.",
+      
     },
     {    id:4,
         name:'Electronics',
         image:sports,
+        productTitle:"Watch",
+        description:"Elevate your style with this elegant and functional watch, designed to complement any outfit. Featuring a durable stainless steel body and a scratch-resistant glass face, it ensures long-lasting wear. The precise quartz movement guarantees accurate timekeeping, while the water-resistant feature adds practicality for everyday use. Whether you're heading to the office, a casual outing, or an evening event, this watch blends style and functionality seamlessly, making it an essential accessory for any wardrobe.",
+        productAdd:"Additional Information:",
+        add:"This watch features a sturdy stainless steel case paired with your choice of a leather or silicone strap for versatile styling. With a water resistance of up to 50 meters, it is perfect for both daily wear and outdoor activities. The 42mm dial size offers a bold yet refined look, while the quartz precision movement ensures reliable performance. Additionally, the watch is backed by a 2-year warranty, making it a timeless and reliable investment.",
+
         
     },
     {     id:5,
         name:'Watch',
         image:watch,
-       
+       productTitle:"Bottle",
+       description:"Stay hydrated on the go with this sleek and durable water bottle. Made from high-quality BPA-free material, it is safe for both hot and cold beverages. The leak-proof cap ensures zero spills, while the lightweight design makes it easy to carry in your bag or hand. With a 750ml capacity, this bottle is perfect for workouts, office use, or outdoor adventures. Its modern design and vibrant color options add a touch of style to your daily hydration routine.",
+       productAdd:"Additional Information:",
+       add:"This water bottle is crafted from BPA-free Tritan plastic, ensuring safety and durability. If you prefer an insulated option, it can keep beverages hot for up to 12 hours or cold for 24 hours, making it perfect for every season. It is available in multiple vibrant colors, including blue, black, green, and red, to suit your style. Cleaning is a breeze, as the bottle is dishwasher safe, adding to its practicality. Whether you’re at the gym, the office, or on an outdoor adventure, this bottle is your ideal hydration companion.",
     },
     {     id:6,
         name:'Clothes',
         image:electronics,
+        productTitle:"Bag",
+        description:"Carry all your essentials with ease in this versatile and stylish bag. Made from durable, water-resistant material, it is designed to withstand daily use while keeping your belongings safe. Featuring multiple compartments and zippered pockets, it offers ample space for your laptop, books, gym gear, or travel essentials. The padded straps ensure maximum comfort, even during extended use. Whether you’re heading to work, the gym, or a weekend getaway, this bag combines functionality and style to meet all your needs.",
+        productAdd:"Additional Information:",
+        add:"This bag is designed for versatility, with dimensions of 45cm x 30cm x 20cm, making it spacious enough to carry a 15.6-inch laptop alongside other essentials. It includes three main compartments and two side bottle holders for added convenience. Made from durable, water-resistant nylon or polyester, it is ideal for both daily use and travel. The bag’s lightweight construction, weighing just 0.8kg, ensures ease of carrying. With its combination of practicality and modern design, this bag is perfect for urban professionals and travelers alike.",
        
     },
 ]

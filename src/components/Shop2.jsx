@@ -21,16 +21,23 @@ function Shop2(){
        <div className="single-image">
                  <img src={viewServices.image} className='single-image-image'/>
                 </div>
-                <div className='single-image-name'>
-                {viewServices.name }
-                </div>
-
-                <div className='single-image-name'>
-                {viewServices.productTitle }
-                </div>
-
-                <div className='single-image-name'>
-                {viewServices.description }
+    <div className='container-shop2'>
+                    <div className='single-image-name'>
+                    {viewServices.name }
+                    </div>
+                    <div className='productTitle '>
+                    {viewServices.productTitle }
+                    </div>
+                    <div className='description'>
+                    {viewServices.description }
+                    </div>
+                    <div className='productAdd'>
+                    {viewServices.productAdd }
+                    </div>
+                    <div className='add'>
+                    {viewServices.add}
+                    </div>
+                    <button type='button' className='button-shop2'>Buy</button>
                 </div>
    </div>
 

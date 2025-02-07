@@ -1,6 +1,6 @@
 .vendors-list{
-    height: 150vh;
-    background: #ffffff;
+    height: 250vh;
+    background-color: rgba(240, 240, 240, 1);
    
 }
 
@@ -48,89 +48,42 @@ font-size: 50px;
     font-size: 20px;
 }
 
-
-/*.icons-vendors{
-    display:flex;
-    gap:10px;
-     font-size: 17px;
-     color: black;
-     margin-Left:15px;
-     cursor: pointer;
-     transition: 0.3s ease;
+.vendors-info{
+    color: black;
+    margin-top: 80px;
+    padding:30px;
+    width: 70em; /* Set the desired width */
+    height: 170px; /* Set the desired height */
+    background-color: rgba(255, 255, 255); /* Set the background color */
+    border: 2px solid #ffffff; /* Optional: Add a border */
+    /* Optional: Add rounded corners */
+    display: flex; /* Optional: For aligning content inside */
+    justify-content: center; /* Optional: Center horizontally */
+    align-items: center; /* Optional: Center vertically */
+    color: rgb(0, 0, 0); /* Optional: Text color inside */
+    font-size: 16px; 
 }
 
-.icons-vendors:hover{
-    color: rgb(48, 79, 203);
-}*/
+
 
 .vendors-images{
-    width: 200px;
-    height: 100px;
-    color: black;
-  
-margin-top: 100px;
-margin-right: 50px;
+  width: 70em;
 
-}
-
-.vendors-shop{
-    width: 300px;
-    height: 200px;
-   
-   /* Flexbox to align the image and text side by side */
-  align-items: center; /* Aligns the image and text vertically centered */
- 
-  
-
-  margin-left: 6em;
-  gap: -1px;
- 
-
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+    display: flex;
 }
 
 
 
-.vendor-shop:hover {
-    transform: scale(1.05);
-  }
-
-  .vendors-images{
-
-    
-   
-   
-  
-    justify-content: center;
-    align-items: center;
-    
-  }
 
 .image-image-vendors{
-    width: 280px;
-    height: 70px;
-    width: 100%;
-    
-    margin-left: -2em;
-    margin-bottom: -10em;
-    object-fit: cover; /* Ensure the image fills the container without stretching */
-    border-radius: 8px; /* Rounded corners for the image */
-    display:inline-flex;
-    flex-direction: row;
-}
+width: 200px;
+height: 170px;
+margin-right: 1px;
+object-fit: cover;
 
-.vendor-info {
-    font-size: 18px;
-    font-weight: bold;
-    font-size: 14px;
-    color: #555;
-    line-height: 1.5;
-    display:inline-flex;
-    flex-direction: row;
-    
-  
-}
 
-.vendors-name{
-    
 }
 
