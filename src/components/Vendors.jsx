@@ -107,6 +107,7 @@ return(
                        <div className='vendors.name'>{item.store}</div>
                        <div className='vendors.address'>{item.address}</div>
                        <div className='vendors.country'>{item.country}</div>
+                       <div className='vendors.country'>{item.rates}</div>
                      </div>
                    
                      

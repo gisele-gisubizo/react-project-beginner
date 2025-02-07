@@ -1,5 +1,5 @@
 import React from "react"
-import '../styles/Blog.css'
+import '../styles/blog.css'
 import b1 from '../assets/b1.webp'
 import b2 from '../assets/b2.webp'
 import b3 from '../assets/b3.webp'
