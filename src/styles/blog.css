@@ -21,7 +21,7 @@ font-style: italic;
 
 
     display: inline-flex;
-    width: 100%;
+    width: 50%;
     gap: 10px; /* Optional: Adds space between images */
     justify-items: center; /* Centers the images in each grid cell */
     align-items: center; /* Vertically centers the images within the container */

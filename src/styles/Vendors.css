@@ -1,5 +1,5 @@
 .vendors-list{
-    height: 250vh;
+    height: 350vh;
     background-color: rgba(240, 240, 240, 1);
    
 }
@@ -51,8 +51,9 @@ font-size: 50px;
 .vendors-info{
     color: black;
     margin-top: 80px;
-    padding:30px;
+    padding:10px;
     width: 70em; /* Set the desired width */
+    
     height: 170px; /* Set the desired height */
     background-color: rgba(255, 255, 255); /* Set the background color */
     border: 2px solid #ffffff; /* Optional: Add a border */
@@ -62,13 +63,14 @@ font-size: 50px;
     align-items: center; /* Optional: Center vertically */
     color: rgb(0, 0, 0); /* Optional: Text color inside */
     font-size: 16px; 
+    
 }
 
 
 
 .vendors-images-images{
   width: 70em;
-
+height: auto;
     margin-top: 50px;
     margin-left: 50px;
     position: relative;
