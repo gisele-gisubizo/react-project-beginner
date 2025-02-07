@@ -12,7 +12,9 @@ import "@fontsource/lora";
 
 
 
+
 function Blog(){
+
     const Products =[
         {   
             picture:b1,
@@ -34,9 +36,6 @@ function Blog(){
             
         },
 
-    ]
-
-    const BlogProducts =[
         {   
             picture:b4,
             date:'July 18, 2021',
@@ -57,64 +56,37 @@ function Blog(){
             
         },
 
-]
-    return(
 
+    ]
+    return (
         <div className="Blog-Blog">
             <h1>Blog</h1>
+    
             <div className="blog">
-            <div className='blog-head'>
-                
+                <div className="blog-head">
+                    {/* Blog header content can go here if needed */}
                 </div>
+    
                 {
-                 Products.map((item) => (
-                    <>
-                  <div className='Blogs-content'>
-            
-                                      <div className='image-blog'><img src={item.picture} className='image-image-blog'/> </div>
-            
-                         <div className='item-date'>{item.date}</div>
-                         <div className='item-name'>{item.name}</div>
-                         <div className='item-Description'>{item.Description}</div>
-            
-                  </div>
-
-            
-            
-            
-                    </>
-             ))
-            }
-
-
-            </div>
-
-            <div className="Blog">
-                {
-                     BlogProducts.map((item) => (
+                    Products.map((item) => (
                         <>
-                      <div className='Blogs-content'>
-                
-                                          <div className='image-blog'><img src={item.picture} className='image-image-blog'/> </div>
-                
-                             <div className='item.date'>{item.date}</div>
-                             <div className='item.name'>{item.name}</div>
-                             <div className='item-Description'>{item.Description}</div>
-                
-                
-                
-                
-                
-                      </div>
-                
-                
-                
-                
+                            <div className='Blogs-content'>
+                                {/* Blog Image */}
+                                <div className='image-blog'>
+                                    <img src={item.picture} alt={item.name} className='image-image-blog' />
+                                </div>
+    
+                                {/* Blog Details */}
+                                <div className='item-date'>{item.date}</div>
+                                <div className='item-name'>{item.name}</div>
+                                <div className='item-Description'>{item.Description}</div>
+                            </div>
                         </>
-                 ))
+                    ))
                 }
             </div>
         </div>
-    )
-}
-export default Blog;
+    );
+  }
+
+  export default Blog;
