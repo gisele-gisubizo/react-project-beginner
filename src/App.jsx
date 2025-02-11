@@ -20,7 +20,7 @@ import SingleArrival from './components/SingleArrival'
 import SingleVendors from './components/SingleVendors'
 
 
-
+import HomeProduct from './components/HomeProduct'
 
 
 
@@ -43,7 +43,7 @@ function App() {
   <Route path="/Shopcards/:id" element={<Shop2/>}/> 
   <Route path="/singlearrival/:id" element={<SingleArrival/>}/> 
   <Route path="/singlevendors" element={<SingleVendors/>}/>
-    
+  <Route path="/HomeProduct" element={<HomeProduct/>}/> 
   
 
     </Route>

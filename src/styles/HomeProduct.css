@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-HomeProduct{
+    color: black;
+    background-color: white;
+    height: 100vh;
+    padding-left: 20em;
+}
+
+
+
+.form-products{
+    padding-top: 5em;
+    padding-left: 4em;
+    background: rgb(236, 236, 236);
+    width: 60%;
+    height: 80%;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+.inputs-products{
+    margin-top: 20px;
+    width: 30em;
+
+}
+
+.button-HomeProducts{
+    margin-top: 20px;
+    margin-left: 10em;
+}
