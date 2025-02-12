@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dash-icon{
+  position: absolute;
+  left: 20px;
+}
+
+.sideBar-link{
+    color: white;
+    text-decoration: none;
+}
+
+.container-sidebar{
+  
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255); 
+   
+}
+
+.sidebar-content{
+
+    background-color: rgb(89, 86, 233);
+    width: 20em;
+    color: white;
+}
+.search-container{
+    width: 18em;
+    border-radius: 20px;
+    border-color:  rgb(89, 86, 233);;
+}
+
+.sideContainer ul{
+     margin-left: 20px;
+     list-style-type: none;
+     padding-top: 20px;
+}
+
+.sideContainer ul li{
+    padding: 20px;
+}

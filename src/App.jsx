@@ -22,6 +22,8 @@ import SingleVendors from './components/SingleVendors'
 
 // import HomeProduct from './components/HomeProduct'
 import NewContact from './components/NewContact'
+import DashBoardLayout from './DashBoard/DashBoardLayout'
+import DashBoardView from './DashBoard/DashBoardView'
 
 
 function App() {
@@ -43,14 +45,15 @@ function App() {
   <Route path="/Shopcards/:id" element={<Shop2/>}/> 
   <Route path="/singlearrival/:id" element={<SingleArrival/>}/> 
   <Route path="/singlevendors" element={<SingleVendors/>}/>
-  <Route path="/NewContact" element={<NewContact/>}/> 
-  
+  <Route path="/NewContact" element={<NewContact/>}/>
+ 
 
     </Route>
-   
+    <Route path="/" element={<DashBoardLayout/>}>
+    <Route path="/dashboard" index element={<DashBoardView/>}/>
+    </Route>
     
-     
-     
+    
 </Routes>
 
    </BrowserRouter>

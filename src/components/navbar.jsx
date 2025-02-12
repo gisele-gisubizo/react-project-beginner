@@ -69,7 +69,8 @@ function Navbar(){
         <Link to='/Blog' className="custom-link"> <li>BLOG</li></Link> 
          <Link to='/Contact' className="custom-link"><li>CONTACT</li></Link> 
          <Link to ='/NewContact'><li>view</li></Link>
-    
+      
+         
          <div className="phone">
          <FaPhoneAlt size="18px" color="white"  />
          <p>800-123-4567</p>
