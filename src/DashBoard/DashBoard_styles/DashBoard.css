@@ -12,13 +12,20 @@
 .sideBar-link{
     color: white;
     text-decoration: none;
+   
+    
+}
+
+.sideBar-link:hover{
+    color: gold;
 }
 
 .container-sidebar{
   
     color:rgb(0, 0, 0);
-    background-color:rgb(255, 255, 255); 
-   
+    background-color: rgb(233, 233, 240);
+   width: 250vh;
+   height: 150vh;
 }
 
 .sidebar-content{
@@ -26,19 +33,390 @@
     background-color: rgb(89, 86, 233);
     width: 20em;
     color: white;
+    position: fixed;
+    z-index: 1000;
 }
+
+
 .search-container{
     width: 18em;
+
     border-radius: 20px;
+    margin-left: 35em;
     border-color:  rgb(89, 86, 233);;
+
 }
 
 .sideContainer ul{
      margin-left: 20px;
      list-style-type: none;
      padding-top: 20px;
+     margin-top: -20px;
 }
 
 .sideContainer ul li{
-    padding: 20px;
+    padding: 16.2px;
+    margin-left: 20px;
 }
+
+.land-page{
+ margin-top: -5px;
+    background-color: white;
+    color:rgb(89, 86, 233); 
+    border-radius: 30px;
+    width: 200px;
+    
+}
+
+.realContent-Sidebar p{
+color:black;
+position: absolute;
+left: 30em;
+top: 1em;
+
+
+}
+
+.dashboards{
+    width: 10em;
+    background-color: whitesmoke;
+    color: black;
+    margin-left: 20em;
+}
+
+.dashboards-one{
+    width: 13em;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.dashboards-two{
+    width: 16em;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.array{
+
+   
+    color: black;
+
+    padding-top: 0;
+    margin-left: 20em;
+    position: absolute;
+    bottom: 15em;
+    height: 33vh;
+    width: 55em;
+    display:flex;
+    position: absolute;
+    bottom: 190px;
+    
+
+  
+
+}
+
+.sidebar-array{
+    
+width: 45em;
+   
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 5px;
+    background-color: rgb(252, 252, 252);
+    /* box-shadow: 3px 1px 20px rgb(0,0,0,0.5); */
+    margin-left: 30px;
+   
+    
+    
+}
+
+.sidebar-arrays{
+    
+    width: 67em;
+       
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 5px;
+        background-color: rgb(252, 252, 252);
+        /* box-shadow: 3px 1px 20px rgb(0,0,0,0.5); */
+        margin-left: 30px;
+       
+        
+        
+    }
+
+
+.item-number-sidebar{
+    text-align: center;
+    padding-bottom: 10px;
+  font-size: 20px;
+  font-family: 'poppins';
+    
+}
+
+.item-data-sidebar{
+    text-align: center;
+  
+    font-size: 10px;
+
+   
+}
+
+.item-graphs-sidebar{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+ 
+
+   
+}
+
+.item-content-sidebar{
+    margin-left: 35px;
+
+    
+    
+
+   
+}
+
+.audience{
+
+    background-color: rgb(255, 255, 255);
+    
+    width: 45%;
+    height: 70vh;
+    margin-left: 22em;
+    position: absolute;
+bottom: -230px;
+
+}
+
+.audience input{
+width: 38.8em;
+height: 50px;
+margin-top: 40px;
+margin-left: 20px;
+
+}
+
+.audience h3{
+    
+    margin-left: 20px;
+    font-weight: bold;
+    }
+    
+    .audience p{
+    
+        margin-left: 20px;
+       
+        }
+
+        .colored-p{
+            margin-left: 20px;
+        font-size: small;
+        color: rgb(115, 114, 114);
+        }
+        
+.colored-audience{
+    color: rgb(89, 86, 233);
+}
+.content-table{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -39px;
+    
+    
+}
+
+.week-dashboard{
+    display: flex;
+    
+   
+    
+
+}
+
+.week-dashboard p{
+ padding-left:20px;
+ margin-top: 10px;
+ color: rgb(115, 114, 114);
+ 
+
+}
+
+.week-dashboard-button{
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+ margin-left: 5px;
+    width: 55px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.week-dashboard-button p{
+    
+    margin-left: -12px;
+    margin-top:5px;
+    color: white;
+}
+.item-dashboard{
+    margin-left: 30px;
+    margin-top: -6px;
+    
+
+}
+
+.item-dashboard p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.value-dashboard p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item-dashboard sub{
+    margin-left: 24px;
+    color: rgb(115, 114, 114);
+}
+
+.value-dashboard sub{
+    margin-left: 24px;
+    color: rgb(115, 114, 114);
+}
+
+
+.value-dashboard{
+
+    margin-left: -160px;
+    margin-top: -6px;
+}
+
+.active-users{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 47vh;
+    position: absolute;
+    left: 59.8em;
+    bottom: -103px;
+    
+   
+   
+}
+
+
+.active-users h3{
+ font-size: 13px;
+ text-align: left;
+ margin-left: 20px;
+}
+
+
+.active-users-p{
+    font-size: 10px;
+    text-align: left;
+    margin-left: 20px;
+   }
+
+
+
+.tables-activeUsers{
+    display: flex;
+    gap: 38px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.users-daily h4{
+ font-size: 13px;
+ color: rgb(167, 166, 166);
+
+}
+
+
+.users-daily sub{
+   
+    color: green;
+   
+   }
+
+.users-daily p{
+    font-size: 20px;
+    color: rgb(84, 80, 80);
+   
+   }
+
+.users-weekly h4{
+    font-size: 13px;
+    color: rgb(167, 166, 166);
+   
+   }
+
+   .users-weekly sub{
+   
+    color: rgb(183, 35, 35);
+   
+   }
+
+
+   .users-weekly p{
+    font-size: 20px;
+    color: rgb(84, 80, 80);
+   
+   }
+
+   .users-monthly h4{
+    font-size: 13px;
+    color: rgb(167, 166, 166);
+   
+   }
+
+   .users-monthly sub{
+   
+    color: green;
+   
+   }
+
+   .users-monthly p{
+    font-size: 20px;
+    color: rgb(84, 80, 80);
+   
+   }
+
+
+   .session{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 30vh;
+    position: absolute;
+    left: 59.8em;
+    bottom: -290px;
+
+   }
+
+   .session h3{
+    font-size: 13px;
+    text-align: left;
+    margin-left: 20px;
+   }
+   
+   .session-list{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+   }
+
+   .session-list-p{
+
+    background-color: grey;
+    color: white;
+    width: 22px;
+    height: 18px;
+    margin-left: 22.5px;
+   }
