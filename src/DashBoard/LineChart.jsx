@@ -19,7 +19,7 @@ function LineChartComponent() {
           <Tooltip />
           <Legend />
           {/* Removed the purple line */}
-          <Line type="monotone" dataKey="pv" stroke="#82ca9d" strokeWidth={2} dot={true} />
+          <Line type="monotone" dataKey="pv" stroke="rgb(164, 215, 240)" strokeWidth={2} dot={true} />
         </LineChart>
       </ResponsiveContainer>
     </div>

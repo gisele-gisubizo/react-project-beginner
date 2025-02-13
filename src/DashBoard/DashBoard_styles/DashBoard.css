@@ -36,6 +36,10 @@
     position: fixed;
     z-index: 1000;
 }
+.sidebar-content h1{
+    font-size: 30px;
+    margin-left: 20px;
+}
 
 
 .search-container{
@@ -55,8 +59,9 @@
 }
 
 .sideContainer ul li{
-    padding: 16.2px;
+    padding: 15.2px;
     margin-left: 20px;
+    font-size: 15px;
 }
 
 .land-page{
@@ -126,6 +131,8 @@ width: 45em;
     background-color: rgb(252, 252, 252);
     /* box-shadow: 3px 1px 20px rgb(0,0,0,0.5); */
     margin-left: 30px;
+    margin-top: -50px;
+    margin-bottom: 50px;
    
     
     
@@ -141,7 +148,8 @@ width: 45em;
         background-color: rgb(252, 252, 252);
         /* box-shadow: 3px 1px 20px rgb(0,0,0,0.5); */
         margin-left: 30px;
-       
+        margin-top: -50px;
+        margin-bottom: 50px;
         
         
     }
@@ -189,7 +197,8 @@ width: 45em;
     height: 70vh;
     margin-left: 22em;
     position: absolute;
-bottom: -230px;
+bottom: -190px;
+
 
 }
 
@@ -302,7 +311,8 @@ margin-left: 20px;
     height: 47vh;
     position: absolute;
     left: 59.8em;
-    bottom: -103px;
+  
+    bottom: -60px;
     
    
    
@@ -341,7 +351,7 @@ margin-left: 20px;
 
 .users-daily sub{
    
-    color: green;
+    color: rgb(164, 215, 240);
    
    }
 
@@ -378,7 +388,7 @@ margin-left: 20px;
 
    .users-monthly sub{
    
-    color: green;
+    color: rgb(164, 215, 240);
    
    }
 
@@ -392,10 +402,10 @@ margin-left: 20px;
    .session{
     background-color: rgb(255, 255, 255);
     width: 20%;
-    height: 30vh;
+    height: 35vh;
     position: absolute;
     left: 59.8em;
-    bottom: -290px;
+    bottom: -284px;
 
    }
 
@@ -418,5 +428,70 @@ margin-left: 20px;
     color: white;
     width: 22px;
     height: 18px;
-    margin-left: 22.5px;
+    margin-left: 30.5px;
+   }
+
+   .top-tittles{
+    margin-left: 60em;
+    margin-top: -20px;
+    display: flex;
+    gap: 20px;
+   
+  
+   }
+.top-tittles p{
+    margin-right: 30px;
+}
+   .download-Top-title {
+    background-color: white;
+    height: 30px;
+    
+   
+    
+   }
+
+   .download-Top-title p{
+     margin-left: 20px;
+     margin-top: 7px;
+   }
+
+ 
+
+   .generate-Top-title{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+   }
+
+   .generate-Top-title p{
+    margin-left: 20px;
+    margin-top: 7px;
+  
+   }
+
+   .input-dashboard{
+    margin-left: 22em;
+    padding-top: 20px;
+
+   }
+
+   .input-dashboard-p{
+   margin-bottom: 10px;
+   font-size: 11px;
+   color:rgb(89, 86, 233) ;
+   }
+
+   .input-dashboard-p-one{
+font-size: 25px;
+
+   }
+
+   .admin-position{
+    margin-left: 30px;
+    
+   }
+
+   .admin{
+    display: flex;
+    margin-bottom: 25px;
    }

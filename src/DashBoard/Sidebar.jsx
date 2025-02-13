@@ -13,15 +13,34 @@ import { IoIosSettings } from "react-icons/io";
  import Graph from './Graph';
  import Chart from './Chart';
  import GraphTwo from './GraphTwo';
-
+import LineChartTwoComponent from './LineChartTwo';
 import CustomBarChart from './BarChart';
 import LineChartComponent from './LineChart';
+import { FaUserLarge } from "react-icons/fa6";
+// import Download from './Download';
+import ThemeToggle from "./Dark"; // Adjust the path as needed
+
+
+
 
 function SideBar() {
+
+
+    
+//   const [download,setDownload] =useState (false);
+//   const handleDownload=()=>
+//   {
+//     setDownload(!download)
+//   }
     return (
+        // {download && <Download handleDownload={handleDownload}/>}
         <div className='container-sidebar'>
             <div className='sidebar-content'>
-                <h1>Botiga Admin</h1>
+                <div className='admin'>
+                    <p className='admin-position'><FaUserLarge style={{ color: "white", fontSize: "34px" }} /></p>
+                    <h1>Admin</h1>
+                    <ThemeToggle />
+                </div>
                 
                 <div className='realContent-Sidebar'>
                    
@@ -66,7 +85,11 @@ function SideBar() {
             </div>
 
             {/* Individual divs instead of using an array */}
-            <input type="text" placeholder='Search' className='search-container' />
+            <div className='input-dashboard'>
+                 <p className='input-dashboard-p'>Welcome to analytical DashBoard</p>
+              <p className='input-dashboard-p-one'>Website Analytics</p>
+
+            </div>
 
             <div className='array'>
                 <div className='sidebar-array'>
@@ -164,12 +187,21 @@ function SideBar() {
                     <p className='session-list-p'>1W</p>
                     <p>1M</p>
                     <p>1Y</p>
-                  
+                  <LineChartTwoComponent/>
                    
                 </div>
 
 
 
+            </div>
+
+            <div className='top-tittles'>
+                <div className='download-Top-title'>
+                    <p >Download</p>
+                </div>
+                <div className='generate-Top-title'>
+                    <p >Generate Report</p>
+                </div>
             </div>
         </div>
     );

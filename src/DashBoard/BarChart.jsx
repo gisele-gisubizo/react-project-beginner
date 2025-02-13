@@ -23,7 +23,7 @@ function CustomBarChart() {
           <Tooltip />
           <Legend />
           <Bar dataKey="pv" fill="rgb(89, 86, 233)" />
-          <Bar dataKey="uv" fill="green" />
+          <Bar dataKey="uv" fill="rgb(164, 215, 240)" />
         </BarChart>
       </ResponsiveContainer>
     </div>

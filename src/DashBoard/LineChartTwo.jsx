@@ -1,5 +1,6 @@
 import React from "react";
 import { LineChart, Line, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from "recharts";
+import './DashBoard_styles/LineChartTwo.css'
 
 const data = [
   { name: "Jan", uv: 4000, pv: 2400 },
@@ -13,13 +14,13 @@ const data = [
 
 function LineChartTwoComponent() {
   return (
-    <div style={{ width: "110%", height: 150 }}>
-      <ResponsiveContainer width="100%" height="100%">
+    <div className='graphs' style={{ width: "150%", height: 130 }}>
+      <ResponsiveContainer width="110%" height="100%">
         <LineChart data={data} margin={{ top: 10, right: 30, left: 0, bottom: 5 }}>
           <Tooltip />
           <Legend />
           {/* Removed the purple line */}
-          <Line type="monotone" dataKey="pv" stroke="#82ca9d" strokeWidth={2} dot={true} />
+          <Line type="monotone" dataKey="pv" stroke="rgb(89, 86, 233)" strokeWidth={2} dot={true} />
         </LineChart>
       </ResponsiveContainer>
     </div>
