@@ -14,6 +14,8 @@ import store3 from '../assets/store3.webp'
 import { MdStar } from "react-icons/md";
 import { MdStarHalf } from "react-icons/md";
 import { MdStarOutline } from "react-icons/md";
+import { FaEdit } from "react-icons/fa";
+import { FaTrash } from "react-icons/fa";
 
 export const vendorShop=[
 
@@ -25,7 +27,10 @@ export const vendorShop=[
     country:'United States (US)',
     Phone:'+957 070000749',
      rates: [<MdStar key={1} style={{ color: 'orange', fontSize: '22px' }}/>,<MdStar key={2} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={3} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={4}  style={{ color: 'orange', fontSize: '22px' }}/>, <MdStarHalf key={5} style={{ color: 'orange', fontSize: '22px' }}/>],
-        
+     icons: [
+      <FaEdit style={{ color: "blue", cursor: "pointer", fontSize: "14px", marginRight: "10px" }} />,
+      <FaTrash style={{ color: "red", cursor: "pointer", fontSize: "14px" }} />
+  ]   
 
 },
 {
@@ -36,7 +41,10 @@ export const vendorShop=[
     country:'United States (US)',
     Phone:'+257 45986749',
      rates: [<MdStar key={1} style={{ color: 'orange', fontSize: '22px' }}/>,<MdStar key={2} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={3} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={4}  style={{ color: 'orange', fontSize: '22px' }}/>, <MdStarHalf key={5} style={{ color: 'orange', fontSize: '22px' }}/>],
-        
+     icons: [
+      <FaEdit style={{ color: "blue", cursor: "pointer", fontSize: "14px", marginRight: "10px" }} />,
+      <FaTrash style={{ color: "red", cursor: "pointer", fontSize: "14px" }} />
+  ]     
   
 },
 {    id:3,
@@ -46,7 +54,10 @@ export const vendorShop=[
     country:'United States (US)',
     Phone:'+757 07986749',
      rates: [<MdStar key={1} style={{ color: 'orange', fontSize: '22px' }}/>,<MdStar key={2} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={3} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={4}  style={{ color: 'orange', fontSize: '22px' }}/>, <MdStarHalf key={5} style={{ color: 'orange', fontSize: '22px' }}/>],
-        
+     icons: [
+      <FaEdit style={{ color: "blue", cursor: "pointer", fontSize: "14px", marginRight: "10px" }} />,
+      <FaTrash style={{ color: "red", cursor: "pointer", fontSize: "14px" }} />
+  ]     
     
 },
 
@@ -57,8 +68,10 @@ export const vendorShop=[
   country:'United States (US)',
   Phone:'+457 07986749',
    rates: [<MdStar key={1} style={{ color: 'orange', fontSize: '22px' }}/>,<MdStar key={2} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={3} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={4}  style={{ color: 'orange', fontSize: '22px' }}/>, <MdStarHalf key={5} style={{ color: 'orange', fontSize: '22px' }}/>],
-      
-
+   icons: [
+    <FaEdit style={{ color: "blue", cursor: "pointer", fontSize: "14px", marginRight: "10px" }} />,
+    <FaTrash style={{ color: "red", cursor: "pointer", fontSize: "14px" }} />
+]
 },
 {
   id:5,
@@ -68,9 +81,14 @@ export const vendorShop=[
   country:'United States (US)',
   Phone:'+457 07986749',
   rates: [<MdStar key={1} style={{ color: 'orange', fontSize: '22px' }}/>,<MdStar key={2} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={3} style={{ color: 'orange', fontSize: '22px' }} />, <MdStar  key={4}  style={{ color: 'orange', fontSize: '22px' }}/>, <MdStarHalf key={5} style={{ color: 'orange', fontSize: '22px' }}/>],
+  icons: [
+    <FaEdit style={{ color: "blue", cursor: "pointer", fontSize: "14px", marginRight: "10px" }} />,
+    <FaTrash style={{ color: "red", cursor: "pointer", fontSize: "14px" }} />
+]
+}
       
 
-},
+
 
 ]
 

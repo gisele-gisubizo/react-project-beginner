@@ -3,17 +3,22 @@ import { vendorShop } from '../components/Vendors'
 function ListVendors() {
   return (
     <div  className='products-content'>
-         <div className="top"><h3>List of Products</h3></div>
+       
+         <div className="top"><h3>List of Vendors</h3></div>
+         <div className='add-vendor'>
+             <p >Add a Vendor</p>
+         </div>
   <div className="table-container">
       <table>
       <thead className='table-tittle'>
         <tr>
-        <th>Vendor id</th>
-        <th>Vendor store name</th>
-        <th>Address</th>
-        <th>Phone Number</th>
-        <th>country</th>
-        <th>rates</th>
+        <th>ID</th>
+        <th>STORE</th>
+        <th>ADDRESS</th>
+        <th>PHONE</th>
+        <th>ADDRESS</th>
+        <th>RATES</th>
+        <th>ACTION</th>
         </tr>
       </thead>
       
@@ -26,6 +31,7 @@ function ListVendors() {
                                 <td> {vendor.Phone}</td>
                                 <td> {vendor.country}</td>
                                 <td> {vendor.rates}</td>
+                                <td> {vendor.icons}</td>
       
                             </tr>
                         ))}
