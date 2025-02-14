@@ -1,10 +1,15 @@
 import React from 'react'
 import { vendorShop } from '../components/Vendors'
+import { IoIosSearch } from "react-icons/io";
 function ListVendors() {
   return (
     <div  className='products-content'>
        
-         <div className="top"><h3>List of Vendors</h3></div>
+         <div className="top">
+         <div className='listVendors-box'><input type="text"placeholder='search' className='listVendors-input'/> <IoIosSearch className='listVendor-search'/> </div>
+            <h3>List of Vendors</h3>
+         
+         </div>
          <div className='add-vendor'>
              <p >Add a Vendor</p>
          </div>
@@ -17,7 +22,7 @@ function ListVendors() {
         <th>ADDRESS</th>
         <th>PHONE</th>
         <th>ADDRESS</th>
-        <th>RATES</th>
+      
         <th>ACTION</th>
         </tr>
       </thead>
@@ -30,7 +35,7 @@ function ListVendors() {
                                 <td> {vendor.address}</td>
                                 <td> {vendor.Phone}</td>
                                 <td> {vendor.country}</td>
-                                <td> {vendor.rates}</td>
+                               
                                 <td> {vendor.icons}</td>
       
                             </tr>
