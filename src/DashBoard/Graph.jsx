@@ -1,39 +1,30 @@
-import React from 'react';
-import { AreaChart, Area, Tooltip, ResponsiveContainer } from 'recharts';
+import React from "react";
+import './DashBoard_styles/data.css'
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 
 const data = [
-  { name: 'Jan', uv: 1000 },
-  { name: 'Feb', uv: 3000 },
-  { name: 'Mar', uv: 2500 },
-  { name: 'Apr', uv: 5000 },
-  { name: 'May', uv: 4000 },
-  { name: 'Jun', uv: 6000 },
-  { name: 'Jul', uv: 3500 },
+  { name: "Jan", uv: 400, pv: 2400 },
+  { name: "Feb", uv: 300, pv: 2210 },
+  { name: "Mar", uv: 200, pv: 2290 },
+  { name: "Apr", uv: 278, pv: 2000 },
+  { name: "May", uv: 189, pv: 2181 },
+  { name: "Jun", uv: 239, pv: 2500 },
 ];
 
-function Graph() {
+const Graph = () => {
   return (
-    <div className="graph" style={{ width: '100%', height: '50px' }}>
+    <div className="graph" style={{ width: "80%", height: "90px" }}>
       <ResponsiveContainer width="100%" height="100%">
-        <AreaChart data={data} margin={{ top: 5, right: 0, left: 0, bottom: 0 }}>
-          <defs>
-            <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="5%" stopColor="#4A90E2" stopOpacity={0.8} />
-            <stop offset="95%" stopColor="#4A90E2" stopOpacity={0} />
-            </linearGradient>
-          </defs>
+        <LineChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
           <Tooltip />
-          <Area 
-            type="monotone"  // Ensures smooth curves
-            dataKey="uv" 
-            stroke="none"  
-            fillOpacity={1} 
-            fill="url(#colorUv)" 
-          />
-        </AreaChart>
+          <Line type="monotone" dataKey="uv" stroke="#8884d8" strokeWidth={2} />
+        </LineChart>
       </ResponsiveContainer>
     </div>
   );
-}
+};
 
 export default Graph;

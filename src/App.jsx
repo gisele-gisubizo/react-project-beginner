@@ -24,6 +24,9 @@ import SingleVendors from './components/SingleVendors'
 import NewContact from './components/NewContact'
 import DashBoardLayout from './DashBoard/DashBoardLayout'
 import DashBoardView from './DashBoard/DashBoardView'
+import ProductsView from './DashBoard/ProductsView'
+import SideBar from './DashBoard/Sidebar'
+import ListVendors from './DashBoard/ListVendors'
 
 
 function App() {
@@ -51,6 +54,10 @@ function App() {
     </Route>
     <Route path="/" element={<DashBoardLayout/>}>
     <Route path="/dashboard" index element={<DashBoardView/>}/>
+    <Route path="/productview" element={<ProductsView/>}/>
+    <Route path="/Sidebar" element={<DashBoardView/>}/>
+    <Route path="/ListVendors" element={<ListVendors/>}/>
+    
     </Route>
     
     

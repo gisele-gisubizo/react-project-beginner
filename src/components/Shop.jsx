@@ -250,15 +250,19 @@ export const arrivals =[
         
         }
 
+
+        const Navigator= useNavigate();
+        const handleNavigator=(id)=>{
+            Navigatior(`/Shopcards/${id}`)
+        
+        }
+
         const Navigated= useNavigate();
 const handleNavigated=(id)=>{
     Navigate(`/singlevendors/${id}`)
 
 }
 
-// const Navigator= useNavigate();
-// const handleNavigator=(id)=>{
-//     Navigator(`/singlwhy/${id}`)
 
 // }
          return(
