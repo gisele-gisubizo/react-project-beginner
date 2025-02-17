@@ -5,6 +5,13 @@ function ProductsView() {
   return (
     <div className='products-content'>
         <div className="top"><h3>List of Products</h3></div>
+        <div className='add-vendor'>
+             <p >Add a product</p>
+         </div>
+         <div className='remove-vendor'>
+             <p >Remove a product</p>
+         </div>
+         
         
         <div className="table-container">
             <table>

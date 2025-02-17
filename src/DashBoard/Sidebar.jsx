@@ -83,7 +83,7 @@ function SideBar() {
                         <Link to='/productview' className='sideBar-link'>
                             <li> <GiBeachBag style={{ fontSize: "17px", color: "white" }} className='dash-icon' />Products</li>
                         </Link>
-                        <Link className='sideBar-link'>
+                        <Link to='/Contacts'className='sideBar-link'>
                             <li> <CgProfile style={{ fontSize: "17px", color: "white" }} className='dash-icon' /> Customers</li>
                         </Link>
                         <Link className='sideBar-link'>

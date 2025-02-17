@@ -54,7 +54,7 @@ export const services =[
        add:"Made from a high-quality polyester blend with moisture-wicking properties, this jersey is both comfortable and practical. It is available in sizes ranging from Small to XXL, ensuring a great fit for everyone. The jersey is easy to maintain and can be machine washed without losing its vibrant color or texture. Whether you're into soccer, basketball, running, or gym workouts, this jersey is an ideal choice for any athletic activity.",
     },
     {    id:3,
-        name:'gadget',
+        name:'uncle fils',
         image:electronics,
         productTitle:"Earphones",
         description:"Experience immersive sound quality with these sleek and lightweight earphones. Designed for comfort and durability, they feature soft silicone ear tips for a secure fit during workouts, commutes, or casual listening. With high-definition sound and deep bass, these earphones bring your music to life. The in-line remote and microphone allow you to manage calls and control your playlist effortlessly. Compatible with most devices, these earphones are your perfect audio companion for every occasion.",
@@ -235,6 +235,116 @@ export const arrivals =[
     
 
     ]
+
+
+
+    export const customers=[
+
+        {
+         id:1,
+        names:"Gisubizo Gisele",
+        order:3,
+        contact:"09873633553",
+        address: "KG 122 Avenue",
+        
+    
+        },
+
+        {
+            id:2,
+           names:"Gikundiro Gentille",
+           order:10,
+           contact:"09873456789",
+           address: "KG 32 Avenue",
+           
+       
+           },
+    
+           
+           {
+            id:3,
+           names:"Innocent mugabo",
+           order:5,
+           contact:"0987363670",
+           address: "KG 122  Avenue",
+           
+       
+           },
+    
+           
+
+           {
+            id:4,
+           names:"Christelle muneza",
+           order:30,
+           contact:"09893633553",
+           address: "Gasabo 123",
+           
+       
+           },
+    
+           
+
+           {
+            id:5,
+           names:"Ngambwa Joshua",
+           order:3,
+           contact:"09873633553",
+           address: "Kimironko Near the market",
+           
+       
+           },
+    
+           {
+            id:6,
+           names:"Gisubizo natasha",
+           order:40,
+           contact:"09873633553",
+           address: "Kimironko Near the market",
+           
+       
+           },
+    
+           
+           {
+            id:7,
+           names:"Munezero carine",
+           order:3,
+           contact:"09873633553",
+           address: "Kacyiru",
+           
+       
+           },
+       
+    
+    
+     
+    
+           {
+            id:8,
+            names:"Impundu Lyra",
+            order:3,
+            contact:"09873633553",
+            address: "Kimironko Near the market",
+            
+       
+           },
+    
+           {
+            id:9,
+            names:"Impano Laura",
+            order:3,
+            contact:"09873633553",
+            address: "KG 122 Avenue",
+            
+       
+           },
+
+        
+    
+
+    ]
+
 
 
     function Shop() {

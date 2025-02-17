@@ -27,6 +27,7 @@ import DashBoardView from './DashBoard/DashBoardView'
 import ProductsView from './DashBoard/ProductsView'
 import SideBar from './DashBoard/Sidebar'
 import ListVendors from './DashBoard/ListVendors'
+import Contacts  from './DashBoard/Contacts'
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
     <Route path="/productview" element={<ProductsView/>}/>
     <Route path="/Sidebar" element={<DashBoardView/>}/>
     <Route path="/ListVendors" element={<ListVendors/>}/>
+    <Route path="/Contacts" element={<Contacts/>}/>
     
     </Route>
     

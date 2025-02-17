@@ -6,6 +6,7 @@ import './DashBoard_styles/DashBoardView.css';
 import LineChartTwoComponent from './LineChartTwo';
 import CustomBarChart from './BarChart';
 import LineChartComponent from './LineChart';
+import { FaCircleUser } from "react-icons/fa6";
 
 
 
@@ -29,12 +30,17 @@ function  DashBoardView() {
                 <div className="welcome">
                   <p> Welcome to analytical DashBoard</p>
                   <h2>Website Analytics</h2>
+                 
+                                       
 
                   </div>   
+                  
                   <div className='topTittles'>
                     <div className="download">Download</div>
                     <div className="generateReport">Generate Report</div>
-                                      </div>        
+                   
+                                      </div>  
+                                   
 
             <div className='array'>
 
