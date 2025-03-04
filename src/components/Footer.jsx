@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import('../styles/Footer.css')
 import cards from '../assets/cards.webp'
 import { RiTwitterXFill } from "react-icons/ri";
@@ -83,4 +83,4 @@ function Footer()
     
 
     }
-    export default Footer;
+    export default Footer

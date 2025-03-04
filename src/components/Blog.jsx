@@ -66,10 +66,10 @@ function Blog(){
             <div className='blog-head'>
                 
                 </div>
-                {
+                {/* {
                  Products.map((item) => (
                     <>
-                  <div className='Blogs-content'>
+                  <div className='BlogS-content'>
             
                                       <div className='image-blog'><img src={item.picture} className='image-image-blog'/> </div>
             
@@ -84,7 +84,7 @@ function Blog(){
             
                     </>
              ))
-            }
+            } */}
 
 
             </div>
@@ -112,7 +112,47 @@ function Blog(){
                 
                         </>
                  ))
+
+
+
+
+                 
                 }
+
+                
+            </div>
+            
+            <div className="Blog">
+                {
+                     BlogProducts.map((item) => (
+                        <>
+                      <div className='Blogs-content'>
+                
+                                          <div className='image-blog'><img src={item.picture} className='image-image-blog'/> </div>
+                
+                             <div className='item.date'>{item.date}</div>
+                             <div className='item.name'>{item.name}</div>
+                             <div className='item-Description'>{item.Description}</div>
+                
+                
+                
+                
+                
+                      </div>
+                
+                
+                
+                
+                        </>
+                 ))
+
+
+
+
+                 
+                }
+
+                
             </div>
         </div>
     )
